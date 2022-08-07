@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.wrapper {
+    border: 5px solid #ffffff;
+    background-color: #24246e;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+#score-home,
+#score-guest {
+    background-color: black;
+    color: #d60e0a;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 54px;
+}
+
+.button-action {
+    font-size: 18px;
+    background-color: rgb(36, 36, 110);
+    border-color: #ffffff;
+    color: #ffffff;
+    height: 39px;
+    width: 39px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#reset-score-btn {
+    padding-bottom: 20px;
+}
+
+#win-team-name {
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 24px;
+}
+
+#reset-score {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+    background-color: rgb(36, 36, 110);
+    border-color: white;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
